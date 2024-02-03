@@ -1,5 +1,4 @@
-# vuepress-theme-qbook-template
-An example template of vuepress-theme-qbook
+# 我的博客
 ## 安装
 - 点击github右上角的use this template按钮，创立一个克隆仓库
 - 在git clone你的克隆仓库
