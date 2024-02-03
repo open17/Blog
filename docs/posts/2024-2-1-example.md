@@ -1,18 +1,30 @@
 ---
 tags:
-    - example
-    - test
-img: blog1.png
-desc: 这是一个示例文档,用于展示各种页面和功能
+  - example
+img: blog2.webp
+desc: Hello World!
 ---
-# 示例文档1
+# 示例文档
+::: success 主题
+本文档为[vuepress-theme-qbook主题](https://github.com/open17/vuepress-theme-qbook)的示例文档
+:::
+:::tip 目录
+[[toc]]
+:::
 ## emoji
 部分展示:
 
-:heart: :relaxed:  :yellow_heart:
-:smirk:	:smiley:	:flushed:
-:joy:	:sob:	:unamused:
-:scream:	:grin:	:blush:
+:heart:  :relaxed: :yellow_heart:
+:smirk:	 :smiley:	 :flushed:
+:joy:	 :sob:	   :unamused:
+:scream: :grin:	   :blush:
+
+```ts
+:heart:  :relaxed: :yellow_heart:
+:smirk:	 :smiley:	 :flushed:
+:joy:	   :sob:	   :unamused:
+:scream: :grin:	   :blush:
+```
 
 完整 `markdown emoji` 详见 [markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji/tree/master)
 ## 段落

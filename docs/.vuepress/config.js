@@ -2,7 +2,7 @@ module.exports = {
     theme: 'vuepress-theme-qbook',
     title: '~',
     themeConfig: {
-        avatar: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202005%2F13%2F20200513161213_vnkdf.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1709524661&t=5acefe73b49fb131e880dbe6f0d720f1",
+        avatar: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp",
         logo: "/logo.png",
         name: "我的博客",
         desc: "by open17 ",
@@ -28,8 +28,8 @@ module.exports = {
                 link: '/tags/',
             },
             {
-                text: '使用指南',
-                link: '/use/',
+                text: '工具',
+                link: '/tools/',
                 icon: 'el-icon-bicycle'
             },
             {
@@ -40,35 +40,23 @@ module.exports = {
         ],
         sideBar: [
             {
-                title: "文档示例",
+                title: "文档&工具",
                 icon: "el-icon-chat-line-square",
                 links: [
                     {
-                        text: "使用指南",
-                        link: "/use/",
-                    },
-                    {
-                        text: "链接",
-                        link: "/link/",
+                        text: "说明",
+                        link: "/tools/",
                     },
                 ]
             },
             {
-                title: "博客示例",
+                title: "算法&模板",
                 icon: "el-icon-camera",
                 links: [
-                    {
-                        text: "你好世界",
-                        link: "post/2024/02/02/helloworld/",
-                    },
-                    {
-                        text: "示例",
-                        link: "post/2024/02/03/example1/",
-                    },
                 ]
             },
         ],
         mdDefaultTheme: "light",
-        mdCodeTheme: ["atom-one-dark", "atom-one-light"]
+        mdCodeTheme: ["atom-one-dark"]
     }
 }

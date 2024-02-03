@@ -7,7 +7,7 @@
   },
   "private": true,
   "dependencies": {
-    "vuepress-theme-qbook": "^1.1.1"
+    "vuepress-theme-qbook": "^1.1.2"
   },
   "devDependencies": {
     "vuepress": "1.8.3"
