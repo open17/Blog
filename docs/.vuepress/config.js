@@ -1,10 +1,10 @@
 module.exports = {
     theme: 'vuepress-theme-qbook',
-    title: '博客模板',
+    title: '~',
     themeConfig: {
         avatar: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202005%2F13%2F20200513161213_vnkdf.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1709524661&t=5acefe73b49fb131e880dbe6f0d720f1",
         logo: "/logo.png",
-        name: "qbook主题示例",
+        name: "我的博客",
         desc: "by open17 ",
         pics: [
             {
@@ -33,9 +33,9 @@ module.exports = {
                 icon: 'el-icon-bicycle'
             },
             {
-                text: '关于',
-                link: '/about/',
-                icon: 'el-icon-user'
+                text: '链接',
+                link: '/link/',
+                icon: 'el-icon-link'
             },
         ],
         sideBar: [
@@ -48,8 +48,8 @@ module.exports = {
                         link: "/use/",
                     },
                     {
-                        text: "关于",
-                        link: "/about/",
+                        text: "链接",
+                        link: "/link/",
                     },
                 ]
             },
