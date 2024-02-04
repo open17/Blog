@@ -57,6 +57,17 @@ module.exports = {
             },
         ],
         mdDefaultTheme: "light",
-        mdCodeTheme: ["atom-one-dark"]
+        mdCodeTheme: ["atom-one-dark"],
+        comment: {
+            // 设置 `platform` 而不是 `api`
+            platform: 'github',
+            // 存储 issue 和评论的库的所有者名称。
+            owner: 'open17',
+            // 用于存储 issue 和评论的存储库的名称。
+            repo: 'Blog',
+            // 从 OAuth2 规范中引入的 clientId 和 clientSecret。
+            clientId: 'f1ba1cc9abc5b3844b05',
+            clientSecret: 'ade32ddf8c5e1ff125fcfecde535d2d3c09f6f14',
+        },
     }
 }
