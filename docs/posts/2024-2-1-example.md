@@ -1,6 +1,6 @@
 ---
 tags:
-  - example
+  - 例子
 img: blog2.webp
 desc: Hello World!
 ---

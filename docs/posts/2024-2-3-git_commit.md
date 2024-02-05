@@ -1,7 +1,7 @@
 ---
 tags: 
     - git
-    - note
+    - 笔记
 img: blog1.png
 desc: git commit -m "..."
 ---
