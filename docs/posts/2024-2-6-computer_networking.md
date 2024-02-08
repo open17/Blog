@@ -2,9 +2,7 @@
 tags: 
     - 计网
     - 笔记
-img: blog1.png
 desc: 应该会经常更新的笔记
-pin: true
 ---
 
 # 计算机网络

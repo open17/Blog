@@ -1,7 +1,7 @@
 ---
 tags:
   - 例子
-img: blog2.webp
+img: blog.webp
 desc: Hello World!
 ---
 # 示例文档
