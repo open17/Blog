@@ -6,7 +6,7 @@ desc: 摸一会鱼
 img: https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082346065.jpg
 ---
 
-# 图灵完备游戏全流程(大概)
+# 图灵完备游戏全流程(更新中)
 :::tip 目录
 [[toc]]
 :::

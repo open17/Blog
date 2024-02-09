@@ -56,43 +56,96 @@ module.exports = {
                 link: '/tags/',
             },
             {
-                text: '工具',
-                link: '/tools/',
-                icon: 'el-icon-bicycle'
+                text: '算法竞赛',
+                link: '/template/',
+                icon: 'el-icon-medal'
             },
             {
                 text: '链接',
-                link: '/link/',
                 icon: 'el-icon-link',
-                sub: [
+                sub:[
                     {
-                        text: '友链',
-                        link: '/link/friend'
+                        text: "友链",
+                        link: "/links/friends",
                     },
                     {
-                        text: '关于',
-                        link: '/link/about',
-                        icon: 'el-icon-ice-cream'
+                        text:"娱乐",
+                        link:"/links/entertainment",
+                    },
+                    {
+                        text:"学习",
+                        link:"/links/study",
+                    },
+                    {
+                        text:"工具",
+                        link:"/links/tools",
                     }
-
                 ]
             }
         ],
         sideBar: [
             {
-                title: "文档&工具",
-                icon: "el-icon-chat-line-square",
+                title: "算法竞赛模板",
+                icon: "el-icon-video-camera",
                 links: [
                     {
-                        text: "说明",
-                        link: "/tools/",
+                        text: "目录",
+                        link: "/template/",
+                    },
+                    {
+                        text:"快速开始",
+                        link:"/template/快速开始",
+                    },
+                    {
+                        text: "数据结构",
+                        link:"/template/数据结构",
+                    },
+                    {
+                        text: "算法",
+                        link:"/template/算法",
+                    },
+                    {
+                        text: "图论",
+                        link:"/template/图论",
+                    },
+                    {
+                        text: "数学",
+                        link:"/template/数学",
+                    },
+                    {
+                        text: "动态规划",
+                        link:"/template/动态规划",
+                    },
+                    {
+                        text: "字符串",
+                        link:"/template/字符串",
+                    },
+                    {
+                        text: "搜索",
+                        link:"/template/搜索",
                     },
                 ]
             },
             {
-                title: "算法&模板",
-                icon: "el-icon-camera",
+                title: "链接",
+                icon: "el-icon-map-location",
                 links: [
+                    {
+                        text: "友链",
+                        link: "/links/friends",
+                    },
+                    {
+                        text:"娱乐",
+                        link:"/links/entertainment",
+                    },
+                    {
+                        text:"学习",
+                        link:"/links/study",
+                    },
+                    {
+                        text:"工具",
+                        link:"/links/tools",
+                    }
                 ]
             },
         ],
