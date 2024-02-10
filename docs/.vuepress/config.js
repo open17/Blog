@@ -7,6 +7,9 @@ module.exports = {
         name: "我的博客",
         defaultPostImg:"https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082314316.jpg",
         defaultCardImg:"https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082335721.jpg",
+        homeWallpaper:"https://cdn.jsdelivr.net/gh/open17/Pic/img/202402100325389.webp",
+        prevText:"前",
+        nextText:"后",
         sns: [
             {
                 type: "github",
