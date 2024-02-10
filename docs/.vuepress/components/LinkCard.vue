@@ -1,7 +1,7 @@
 <template>
-  <a :href="link" target="_blank">
+  <a :href="link" target="_blank" class="target">
     <div class="card">
-      <h3 class="card__title">{{ title }}</h3>
+      <h3 class="card__title" style="text-decoration: none">{{ title }}</h3>
       <p class="card__content">{{ desc }}</p>
       <div class="card__arrow">
         <svg
