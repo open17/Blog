@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 a {
   float: left;
