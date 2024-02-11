@@ -2,7 +2,16 @@ module.exports = {
     theme: 'vuepress-theme-qbook',
     title: 'OPEN17的个人小站',
     head: [
-        ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp' }]
+        ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp' }],
+        ['script', {}, `
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?79ed11db88a25b0fa7b2bdd07ab6f855";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();`
+        ]
     ],
     themeConfig: {
         avatar: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp",
