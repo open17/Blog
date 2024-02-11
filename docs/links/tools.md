@@ -18,11 +18,11 @@
 ## 前端
 <LinkCard title="V0" link="https://v0.dev/" desc="使用tailwindcss的网页生成工具" />
 <LinkCard title="Figma" link="https://www.figma.com/" desc="原型设计" />
-<LinkCard title="百度统计" link="https://tongji.baidu.com/" desc="百度推出的一站式智能数据分析与应用平台" />
 <div style="clear:both"></div>
 
-## 部署
+## 部署&服务商
 <LinkCard title="Vercel" link="https://www.vercel.com" desc="静态资源和无服务器云计算部署平台" />
-
-
+<LinkCard title="Netlify" link="https://www.netlify.com/" desc="免费的静态网站托管平台" /> 
+<LinkCard title="Cloudflare" link="https://dash.cloudflare.com" desc="提供CDN、DNS、WebRTC、SSL、Firewall等" />
+<LinkCard title="百度统计" link="https://tongji.baidu.com/" desc="百度推出的一站式智能数据分析与应用平台" />
 <div style="clear:both"></div>
