@@ -56,13 +56,13 @@ vercel的域名一般是仓库名并且可以自己设置,而且最重要的是�
 
 ## cloudflare
 
-在完成以上步骤之后,我们可以使用cloudflare进一步优化vervel的访问[^2]
+在完成以上步骤之后,我们可以使用cloudflare进一步优化vercel的访问[^2]
 
 [^2]: 尽管很多人认为cf在国内是减速器,但是至少在我这里速度还是不错的
 
 cloudflare可以提供域名解析服务,并且提供免费的CDN加速服务
 
-这里我们的域名DNS先转到cloundflare提供的域名名下,然后就可以加入cname解析,然后再在vervel中绑定一下解析的域名
+这里我们的域名DNS先转到cloundflare提供的域名名下,然后就可以加入cname解析,然后再在vercel中绑定一下解析的域名
 
 现在就可以使用cloudflare提供的域名解析服务和cdn加速服务啦
 
