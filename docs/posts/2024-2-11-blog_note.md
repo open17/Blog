@@ -34,7 +34,7 @@ desc: vuepress+vuepress-theme-qbook+vercel+cloudflare白嫖搭建静态个人博
 
 <div style="clear:both"></div>
 
-## vercel
+## 部署-vercel
 在主题开发完毕后,接下来的事情就是部署啦,vuepress原本文档[部署](https://vuepress.vuejs.org/guide/deploy.html)就提供了很多部署方案
 
 最开始我使用的是github-page的静态托管,好处自然是免费且方便,复制一个github action就行
@@ -54,7 +54,7 @@ vercel的域名一般是仓库名并且可以自己设置,而且最重要的是�
 
 如果你自己有一个域名的话,你还可以自定义更改域名,非常的方便(不过这点github-page也支持)
 
-## cloudflare
+## 解析与加速-cloudflare
 
 在完成以上步骤之后,我们可以使用cloudflare进一步优化vercel的访问[^2]
 
@@ -65,4 +65,28 @@ cloudflare可以提供域名解析服务,并且提供免费的CDN加速服务
 这里我们的域名DNS先转到cloundflare提供的域名名下,然后就可以加入cname解析,然后再在vercel中绑定一下解析的域名
 
 现在就可以使用cloudflare提供的域名解析服务和cdn加速服务啦
+
+## 统计-百度/谷歌
+一款博客怎么能少了用户分析呢?
+推荐使用百度统计或者谷歌分析
+
+方法也很简单,比如百度统计去官网拿个代码,然后在`config.js`里丢到heads里即可
+
+## 更多增强
+### 评论-vssue
+主题支持vssue的评论,只需要免费注册一个github账号即可实现,无需服务器
+
+### 搜索-algolia
+继承原生插件,可以配置algolia的搜索
+这里还没有使用过,待更新
+
+### SEO优化
+待更新主题的sitemap功能,用于推送搜索引擎
+
+### RSS
+同上
+
+### 订阅更新邮件
+可以利用MailChimp和[插件](https://vuepress-plugin-mailchimp.billyyyyy3320.com/#install)实现
+
 
