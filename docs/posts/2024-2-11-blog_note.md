@@ -80,11 +80,11 @@ cloudflare可以提供域名解析服务,并且提供免费的CDN加速服务
 继承原生插件,可以配置algolia的搜索
 这里还没有使用过,待更新
 
-### SEO优化
-待更新主题的sitemap功能,用于推送搜索引擎
+### sitemap
+主题支持,填入hostname配置即可
 
 ### RSS
-同上
+主题支持,填入hostname配置即可
 
 ### 订阅更新邮件
 可以利用MailChimp和[插件](https://vuepress-plugin-mailchimp.billyyyyy3320.com/#install)实现
