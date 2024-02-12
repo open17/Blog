@@ -1,6 +1,7 @@
 module.exports = {
     theme: 'vuepress-theme-qbook',
     title: 'OPEN17的个人小站',
+    description: 'open17的个人博客~',
     head: [
         ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp' }],
         ['script', {}, `
