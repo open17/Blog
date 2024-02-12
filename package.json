@@ -7,9 +7,12 @@
   },
   "private": true,
   "dependencies": {
-    "vuepress-theme-qbook": "^1.1.12"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-theme-qbook": "^1.1.13"
   },
   "devDependencies": {
-    "vuepress": "1.8.3"
+    "vuepress": "1.8.3",
+    "vuepress-plugin-feed": "^0.1.9",
+    "vuepress-plugin-feed1": "^1.31.0-beta.1"
   }
 }

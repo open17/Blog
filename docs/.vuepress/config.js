@@ -13,6 +13,8 @@ module.exports = {
             })();`
         ]
     ],
+    plugins: [
+    ],
     themeConfig: {
         avatar: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp",
         logo: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082234047.png",
@@ -177,6 +179,7 @@ module.exports = {
             clientId: 'e262f99ff317b8f2d87d',
             clientSecret: 'e38cbbdb2693f7c2267d285ecf53ab88f0535cb0',
         },
-        pageSize: 5
+        pageSize: 5,
+        hostname:"https://blog.open17.vip"
     }
 }
