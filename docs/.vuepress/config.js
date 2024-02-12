@@ -21,6 +21,7 @@ module.exports = {
                     "open17, 博客, vuepress, vuepress-theme-qbook, vuepress-theme, 主题, IT",
             },
         ],
+        ['meta', { name: 'baidu-site-verification', content: 'codeva-x3tdSgw9mt' }]
     ],
     plugins: [
     ],
