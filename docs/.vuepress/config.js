@@ -11,7 +11,15 @@ module.exports = {
               var s = document.getElementsByTagName("script")[0]; 
               s.parentNode.insertBefore(hm, s);
             })();`
-        ]
+        ],
+        [
+            "meta",
+            {
+                name: "keywords",
+                content:
+                    "open17, 博客, vuepress, vuepress-theme-qbook, vuepress-theme, 主题, IT",
+            },
+        ],
     ],
     plugins: [
     ],
@@ -180,6 +188,6 @@ module.exports = {
             clientSecret: 'e38cbbdb2693f7c2267d285ecf53ab88f0535cb0',
         },
         pageSize: 5,
-        hostname:"https://blog.open17.vip"
+        hostname: "https://blog.open17.vip"
     }
 }
