@@ -116,12 +116,12 @@ module.exports = {
                 icon: "el-icon-video-camera",
                 links: [
                     {
-                        text: "目录",
+                        text: "概述",
                         link: "/template/",
                     },
                     {
-                        text: "快速开始",
-                        link: "/template/快速开始",
+                        text: "旅途的开始",
+                        link: "/template/旅途的开始",
                     },
                     {
                         text: "数据结构",
