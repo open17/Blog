@@ -8,7 +8,7 @@
   "private": true,
   "dependencies": {
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-theme-qbook": "^1.1.13"
+    "vuepress-theme-qbook": "^1.1.14"
   },
   "devDependencies": {
     "vuepress": "1.8.3",
