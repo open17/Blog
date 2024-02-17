@@ -46,6 +46,7 @@ export default {
 
 <style scoped>
 .cookies-card {
+  z-index: 10000;
   position: fixed;
   bottom: 150px;
   right: 300px;
