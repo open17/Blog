@@ -1,9 +1,8 @@
 <template>
   <SWUpdatePopup v-slot="{ enabled, reload, message, buttonText }">
     <div class="cookies-card" v-if="enabled">
-      <p class="cookie-heading">Update Tips</p>
-      <p class="cookie-para">
-        {{ message }}
+      <p class="cookie-heading">{{ message }}</p>
+      <p class="cookie-para"> 
       </p>
       <div class="button-wrapper">
         <button class="accept cookie-button" @click="reload">
@@ -48,8 +47,8 @@ export default {
 .cookies-card {
   z-index: 10000;
   position: fixed;
-  bottom: 50px;
-  right: 300px;
+  bottom: 10px;
+  right: 10px;
   width: 280px;
   height: fit-content;
   background-color: rgb(255, 250, 250);
