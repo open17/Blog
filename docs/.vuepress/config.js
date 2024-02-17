@@ -3,7 +3,6 @@ module.exports = {
     title: 'OPEN17的个人小站',
     description: 'open17的个人博客~',
     head: [
-        ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp' }],
         ['script', {}, `
             var _hmt = _hmt || [];
             (function() {
@@ -22,22 +21,23 @@ module.exports = {
             },
         ],
         ['meta', { name: 'baidu-site-verification', content: 'codeva-x3tdSgw9mt' }],
-        // ['link', { rel: 'icon', href: 'favicon.ico', type: 'image/x-icon' }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['meta', { name: 'theme-color', content: '#fff' }],
-        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-        // ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon-152x152.png' }],
-        // ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
-        // ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+        ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+        ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+        ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+        ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+        ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
+        ['meta', { name: 'theme-color', content: '#ffffff' }]
     ],
     plugins: [
         [
             '@vuepress/pwa',
             {
                 serviceWorker: true,
-                updatePopup: true
+                updatePopup: {
+                    message: "铛铛铛~博客已更新!",
+                    buttonText: "立刻刷新!"
+                }
             }
         ]
     ],
