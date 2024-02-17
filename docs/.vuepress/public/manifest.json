@@ -1,7 +1,7 @@
 { 
     "name": "open17的个人博客",
     "short_name": "open17",
-    "start_url": ".", 
+    "start_url": "/index.html", 
     "icon": [
       {
         "src": "/logo.png", 
