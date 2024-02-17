@@ -36,14 +36,15 @@ module.exports = {
                 serviceWorker: true,
                 updatePopup: {
                     message: "铛铛铛~博客已更新!",
-                    buttonText: "立刻刷新!"
+                    buttonText: "立刻刷新!",
+                    popupComponent: 'MySWUpdatePopup'
                 }
             }
         ]
     ],
     themeConfig: {
         avatar: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp",
-        logo: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082234047.png",
+        logo: "android-chrome-512x512.png",
         name: "我的博客",
         defaultPostImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082314316.jpg",
         defaultCardImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082335721.jpg",
