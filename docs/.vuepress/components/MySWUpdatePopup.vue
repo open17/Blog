@@ -48,7 +48,7 @@ export default {
 .cookies-card {
   z-index: 10000;
   position: fixed;
-  bottom: 150px;
+  bottom: 50px;
   right: 300px;
   width: 280px;
   height: fit-content;
@@ -61,7 +61,6 @@ export default {
   justify-content: space-between;
   padding: 20px;
   gap: 15px;
-  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.066);
 }
