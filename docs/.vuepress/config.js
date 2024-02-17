@@ -43,7 +43,7 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        avatar: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402031524062.webp",
+        avatar: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402180056887.webp",
         logo: "android-chrome-512x512.png",
         name: "我的博客",
         defaultPostImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082314316.jpg",
