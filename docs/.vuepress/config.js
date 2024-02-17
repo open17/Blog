@@ -34,10 +34,10 @@ module.exports = {
             '@vuepress/pwa',
             {
                 serviceWorker: true,
+                popupComponent: 'MySWUpdatePopup',
                 updatePopup: {
                     message: "铛铛铛~博客已更新!",
                     buttonText: "立刻刷新!",
-                    popupComponent: 'MySWUpdatePopup'
                 }
             }
         ]
