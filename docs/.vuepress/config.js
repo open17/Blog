@@ -102,7 +102,45 @@ module.exports = {
             {
                 text: '算法竞赛',
                 link: '/template/',
-                icon: 'el-icon-medal'
+                icon: 'el-icon-medal',
+                sub: [
+                    {
+                        text: "概述",
+                        link: "/template/",
+                    },
+                    {
+                        text: "旅途的开始",
+                        link: "/template/旅途的开始",
+                    },
+                    {
+                        text: "数据结构",
+                        link: "/template/数据结构",
+                    },
+                    {
+                        text: "算法",
+                        link: "/template/算法",
+                    },
+                    {
+                        text: "图论",
+                        link: "/template/图论",
+                    },
+                    {
+                        text: "数学",
+                        link: "/template/数学",
+                    },
+                    {
+                        text: "动态规划",
+                        link: "/template/动态规划",
+                    },
+                    {
+                        text: "字符串",
+                        link: "/template/字符串",
+                    },
+                    {
+                        text: "搜索",
+                        link: "/template/搜索",
+                    },
+                ]
             },
             {
                 text: '链接',
