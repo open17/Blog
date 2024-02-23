@@ -6,11 +6,7 @@ desc: 可能...更新不定期
 title: vuepress-theme-qbook主题介绍
 layout: Clean
 test_config:
-    theme: "night"  
     width: 1200
-    autoSlide: 5000
-    loop: true
-pin: true
 ---
 
 :::reveal test_config
