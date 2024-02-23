@@ -2,12 +2,12 @@
   "name": "vuepress-theme-qbook-template",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --no-cache",
     "build": "vuepress build docs"
   },
   "private": true,
   "dependencies": {
-    "vuepress-theme-qbook": "^1.1.19"
+    "vuepress-theme-qbook": "^1.1.21"
   },
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.9.10",
