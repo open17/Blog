@@ -34,7 +34,7 @@ a:hover {
 a {
   float: left;
   display: inline;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   margin-bottom: 1rem;
 }
 .card {
@@ -46,9 +46,10 @@ a {
   padding: 1rem;
   cursor: pointer;
   border-radius: var(--border-radius);
-  background: #f1f1f3;
-  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+  background: #fff;
+  border: 1px solid #e6e6e6;
   position: relative;
+  box-shadow: 2px 3px 1px 0px #bebebe;
 }
 
 .card > * + * {
@@ -90,6 +91,11 @@ a {
 }
 
 /* hover */
+.card:hover {
+  /* box-shadow: none; */
+  transform: translateY(5px);
+  box-shadow: inset 2px 3px 3px 0px #bebebe, inset -2px -3px 3px 0px #fff;
+}
 .card:hover .card__title {
   color: var(--primary-color);
   text-decoration: underline;
