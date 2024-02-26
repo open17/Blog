@@ -128,12 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-docs/pratice/1.py
-docs/pratice/b.py
-docs/pratice/c.cpp
-docs/pratice/c.exe
-docs/pratice/c.py
-docs/pratice/e.py
-docs/pratice/p.py
-data.in
-data.out
+docs/pratice/*
+*.out
+*.in
