@@ -12,6 +12,14 @@ module.exports = {
               s.parentNode.insertBefore(hm, s);
             })();`
         ],
+        ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-XRDTL6KVXZ' }],
+        ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XRDTL6KVXZ');
+    `],
         [
             "meta",
             {
@@ -28,7 +36,7 @@ module.exports = {
         ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
         ['meta', { name: 'msapplication-TileColor', content: '#603cba' }],
         ['meta', { name: 'theme-color', content: '#ffffff' }],
-         ['meta', { name: 'google-site-verification', content: 'MapY2SW-iYvQIGVm_zwOjO4nrecsyTRxEBGtMypwJQA' }]
+        ['meta', { name: 'google-site-verification', content: 'MapY2SW-iYvQIGVm_zwOjO4nrecsyTRxEBGtMypwJQA' }]
     ],
     plugins: [
         [
