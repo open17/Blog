@@ -27,7 +27,8 @@ module.exports = {
         ['link', { rel: 'manifest', href: '/site.webmanifest' }],
         ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
         ['meta', { name: 'msapplication-TileColor', content: '#603cba' }],
-        ['meta', { name: 'theme-color', content: '#ffffff' }]
+        ['meta', { name: 'theme-color', content: '#ffffff' }],
+         ['meta', { name: 'google-site-verification', content: 'MapY2SW-iYvQIGVm_zwOjO4nrecsyTRxEBGtMypwJQA' }]
     ],
     plugins: [
         [
