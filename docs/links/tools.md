@@ -24,6 +24,6 @@
 <LinkCard title="Vercel" link="https://www.vercel.com" desc="静态资源和无服务器云计算部署平台" />
 <LinkCard title="Netlify" link="https://www.netlify.com/" desc="免费的静态网站托管平台" /> 
 <LinkCard title="Cloudflare" link="https://dash.cloudflare.com" desc="提供CDN、DNS、WebRTC、SSL、Firewall等" />
-<LinkCard title="google analytics" link="https://analytics.google.com/analytics/web/" desc="google分析">
+<LinkCard title="google analytics" link="https://analytics.google.com/analytics/web/" desc="Google Analytics lets you measure your ..."/>
 <LinkCard title="百度统计" link="https://tongji.baidu.com/" desc="百度推出的一站式智能数据分析与应用平台" />
 <div style="clear:both"></div>
