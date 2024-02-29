@@ -158,8 +158,8 @@ module.exports = {
                 ]
             },
             {
-                text: '   ',
-                icon: 'el-icon-more',
+                text: '更多',
+                icon: 'el-icon-position',
                 sub: [
                     {
                         text: "友链",
