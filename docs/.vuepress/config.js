@@ -55,7 +55,7 @@ module.exports = {
         avatar: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402180055280.webp",
         logo: "android-chrome-512x512.png",
         name: "我的博客",
-        defaultPostImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082314316.jpg",
+        defaultPostImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403011548000.png",
         defaultCardImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082335721.jpg",
         homeWallpaper: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402100325389.webp",
         prevText: "前",
