@@ -40,7 +40,7 @@ python -m pip install -r requirements.txt
 
 ## 配置
 
-你可以直接修车config.py,或者创建config_private.py
+你可以直接修改config.py,或者创建config_private.py
 
 config.py对每个参数都写好了注释,你可以直接看注释
 
