@@ -56,7 +56,7 @@ module.exports = {
         logo: "android-chrome-512x512.png",
         name: "我的博客",
         defaultPostImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403011548000.png",
-        defaultCardImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402082335721.jpg",
+        defaultCardImg: "https://source.unsplash.com/1600x900/?wallpaper",
         homeWallpaper: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402100325389.webp",
         prevText: "前",
         nextText: "后",
@@ -180,9 +180,11 @@ module.exports = {
                 ]
             }
         ],
-        sideBar: [
+        autoSidebar:true,
+        forbidCategory:["pratice","links"],
+        sidebar: [
             {
-                title: "算法竞赛模板",
+                text: "算法竞赛模板",
                 icon: "el-icon-video-camera",
                 links: [
                     {
@@ -224,7 +226,7 @@ module.exports = {
                 ]
             },
             {
-                title: "更多",
+                text: "更多",
                 icon: "el-icon-map-location",
                 links: [
                     {

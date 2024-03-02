@@ -4,7 +4,6 @@ tags:
     - 笔记
 img: blog.png
 desc: 计算机体系结构系列笔记
-pin: true
 ---
 
 # 体系结构
