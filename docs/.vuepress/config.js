@@ -111,7 +111,7 @@ module.exports = {
             },
             {
                 text: '算法竞赛',
-                link: '/算法竞赛/',
+                link: '/算法模板/',
                 icon: 'el-icon-medal',
             },
             {
