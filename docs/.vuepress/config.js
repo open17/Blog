@@ -135,7 +135,7 @@ module.exports = {
                         link: "/links/tools",
                     }
                 ]
-            }
+            },
         ],
         autoSidebar: true,
         forbidCategory: ["pratice", "links"],
