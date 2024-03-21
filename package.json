@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs --no-cache",
-    "build": "vuepress build docs"
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vuepress build docs"
   },
   "private": true,
   "dependencies": {
-    "vuepress-theme-qbook": "^1.1.27"
+    "cross-env": "^7.0.3",
+    "vuepress-theme-qbook": "^1.1.28"
   },
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.9.10",
