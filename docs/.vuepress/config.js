@@ -56,7 +56,7 @@ module.exports = {
         logo: "android-chrome-512x512.png",
         name: "我的博客",
         defaultPostImg: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403011548000.png",
-        defaultCardImg: ["https://source.unsplash.com/1600x900/?wallpaper", "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031455554.png","https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031546967.png","https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031549199.png","https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031552636.png"],
+        defaultCardImg: ["https://source.unsplash.com/1600x900/?wallpaper", "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031455554.png", "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031546967.png", "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031549199.png", "https://cdn.jsdelivr.net/gh/open17/Pic/img/202403031552636.png"],
         homeWallpaper: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202402100325389.webp",
         prevText: "前",
         nextText: "后",
@@ -100,6 +100,11 @@ module.exports = {
             },
         ],
         nav: [
+             {
+                text: '新版博客站点',
+                link: 'https://blog.open17.vip',
+                icon: 'el-icon-medal',
+            },
             {
                 text: '主页',
                 link: '/',
@@ -109,22 +114,18 @@ module.exports = {
                 text: '标签',
                 link: '/tags/',
             },
-            {
-                text: '算法竞赛',
-                link: '/算法模板/前言',
-                icon: 'el-icon-medal',
-            },
+           
             {
                 text: '更多',
                 icon: 'el-icon-position',
                 sub: [
                     {
-                        text: "友链",
-                        link: "/links/friends",
+                        text: '算法竞赛',
+                        link: '/算法模板/前言',
                     },
                     {
-                        text: "联系",
-                        link: "/links/contact",
+                        text: "友链",
+                        link: "/links/friends",
                     },
                     {
                         text: "学习",
@@ -153,7 +154,7 @@ module.exports = {
             clientSecret: 'e38cbbdb2693f7c2267d285ecf53ab88f0535cb0',
         },
         pageSize: 5,
-        hostname: "https://blog.open17.vip",
+        hostname: "https://blog-qbook.open17.vip",
         footer: `<footer style="background-color: #333; color: #fff; padding: 20px; text-align: center; width: 100%;">
         <br/>
   <p>&copy; 2024 open17. All rights reserved.</p>
