@@ -1,10 +1,3 @@
-# 我的博客
-[blog site](https://blog.open17.vip/)
-## 安装
-- 点击github右上角的use this template按钮，创立一个克隆仓库
-- 在git clone你的克隆仓库
-- 根目录下执行`npm install`或者`yarn`安装依赖
-- 现在完成啦
-## 使用
-- 在目录下执行`npm run dev`或者`yarn dev`启动本地服务
-- 执行`npm run build`或者`yarn build`打包
+# 我的旧博客,
+## 说明
+新博客已转移至vitepress,原链接自动重定向至新博客,访问旧版内容点击[这里](https://blog-qbook.open17.vip/)
