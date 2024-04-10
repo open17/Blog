@@ -101,7 +101,7 @@ module.exports = {
         ],
         nav: [
              {
-                text: '新版博客站点',
+                text: '博客主站',
                 link: 'https://blog.open17.vip',
                 icon: 'el-icon-medal',
             },
